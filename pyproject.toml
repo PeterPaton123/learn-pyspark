@@ -4,9 +4,15 @@ version = "0.1.0"
 description = ""
 authors = ["PeterPaton123 <peter-paton@outlook.com>"]
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.12"
+pyspark = "^4.0.0"
+ipykernel = "^6.29.5"
+jupytext = "^1.17.1"
+kaggle = "^1.7.4.5"
+pandas = "^2.2.3"
 
 
 [build-system]
