@@ -11,7 +11,7 @@ def startdev(c):
 def download_data(c):
     os.makedirs("data", exist_ok=True)
     with c.cd("data"):
-        if not os.path.exists("HIGGS.csv"):
+        if not os.path.exists("data/HIGGS.csv"):
             c.run("wget https://archive.ics.uci.edu/ml/machine-learning-databases/00280/HIGGS.csv.gz")
             c.run("gunzip HIGGS.csv.gz")
 
